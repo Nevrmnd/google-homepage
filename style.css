@@ -29,14 +29,13 @@ main {
 	border: 1px solid pink;
 }
 
-#logo {
+#logoDiv {
 	border: 1px solid green;
-	width: 100%;
-	height: 40%;
+	/* width: 100%;
+	height: 40%; */
 }
 
-img {
-	margin: 0 30%;
+#logoDiv img {
 	border: 1px solid blue;
 }
 
@@ -46,21 +45,33 @@ form {
 	width: 100%;
 }
 
-#input {
+#inputDiv {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	border: 1px solid deepskyblue;
+	border: 1px solid lightgray;
 	border-radius: 50px;
-	height: 2.5rem;
+	height: 3rem;
 	width: 90%;
 	margin: 1rem;
+}
+
+#magIco {
+	border: 1px solid red;
+	height: auto;
+	width: 5%;
+	margin: 2%;
 }
 
 input {
 	border: 1px solid yellow;
 	height: 60%;
 	width: 80%;
+}
+
+#voiceIco {
+	border: 1px solid red;
+	width: 2.7%;
+	margin: 4%;
 }
 
 button {
