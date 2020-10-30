@@ -17,6 +17,27 @@ button {
 	list-style: none;
 }
 
+header {
+	border: 1px solid red;
+}
+
+nav {
+	border: 1px solid green;
+}
+
+nav ul {
+	border: 1px solid blue;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0.8rem 0;
+}
+
+nav ul li {
+	border: 1px dashed yellow;
+	display: inline;
+	margin: 0 1rem;
+}
+
 main {
 	display: flex;
 	flex-flow: row wrap;
@@ -68,10 +89,14 @@ input {
 	width: 80%;
 }
 
+#voiceIcoDiv {
+	border: 1px solid green;
+	width: 3%;
+}
+
 #voiceIco {
 	border: 1px solid red;
-	width: 2.7%;
-	margin: 4%;
+	max-width: 100%;
 }
 
 button {
@@ -79,14 +104,27 @@ button {
 }
 
 footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
 	position: absolute;
 	bottom: 0;
 	width: 100vw;
-	height: 50px;
-	border: 1px solid red;
+	height: 6.5vh;
+	border: 1px solid #e1e1e1;
 	background-color: #f2f2f2;
 }
 
-li {
+footer ul {
+	margin: 0 1rem;
+}
+
+footer ul li {
+	text-align: center;
 	display: inline;
+	margin: 0 0.7rem;
+	font-family: Arial;
+	font-size: 0.89rem;
+	color: #5f6368;
 }
