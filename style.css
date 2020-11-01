@@ -5,6 +5,7 @@ footer,
 nav,
 ul,
 li,
+a,
 div,
 img,
 form,
@@ -15,27 +16,53 @@ button {
 	border: 0;
 	box-sizing: border-box;
 	list-style: none;
+	text-decoration: none;
+	font-family: arial, sans-serif;
 }
 
 header {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 nav {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 nav ul {
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 	margin: 0.8rem 0;
+	padding: 0 1.3rem;
 }
 
 nav ul li {
-	border: 1px dashed yellow;
+	/* border: 1px dashed coral; */
 	display: inline;
-	margin: 0 1rem;
+	margin: 0 0.6rem;
+	font-size: 0.8rem;
+}
+
+a {
+	all: unset;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav img {
+	width: 1rem;
+}
+
+nav button {
+	background-color: #4586f5;
+	color: white;
+	border-radius: 5%;
+	width: 70px;
+	font-weight: bold;
+	height: 30px;
 }
 
 main {
@@ -91,7 +118,8 @@ input {
 
 #voiceIcoDiv {
 	border: 1px solid green;
-	width: 3%;
+	width: 4.3%;
+	margin: 0 1.4rem;
 }
 
 #voiceIco {
@@ -99,7 +127,7 @@ input {
 	max-width: 100%;
 }
 
-button {
+main button {
 	border: 1px dashed turquoise;
 }
 
@@ -124,7 +152,6 @@ footer ul li {
 	text-align: center;
 	display: inline;
 	margin: 0 0.7rem;
-	font-family: Arial;
 	font-size: 0.89rem;
 	color: #5f6368;
 }
