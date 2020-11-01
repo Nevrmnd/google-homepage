@@ -17,6 +17,7 @@ button {
 	box-sizing: border-box;
 	list-style: none;
 	text-decoration: none;
+	color: inherit;
 	font-family: arial, sans-serif;
 }
 
@@ -44,13 +45,14 @@ nav ul li {
 	font-size: 0.8rem;
 }
 
-a {
-	all: unset;
-}
-
-a:hover {
+footer a:hover,
+nav ul li:nth-child(-n + 2):hover {
 	text-decoration: underline;
 }
+
+/* a:visited {
+	color: inherit;
+} */
 
 nav img {
 	width: 1rem;
