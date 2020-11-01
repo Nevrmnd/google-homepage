@@ -93,6 +93,10 @@ form {
 	border: 1px solid grey;
 	height: 50%;
 	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 #inputDiv {
@@ -130,7 +134,18 @@ input {
 }
 
 main button {
-	border: 1px dashed turquoise;
+	border: 1px dashed transparent;
+	border-radius: 5%;
+	background-color: #f2f2f2;
+	margin: 0 0.5rem;
+	padding: 0.6rem 0.9rem;
+	color: #5f6368;
+	font-size: 0.9rem;
+}
+
+main button:hover {
+	border: 1px solid #c7c7c7;
+	color: black;
 }
 
 footer {
