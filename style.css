@@ -13,12 +13,13 @@ input,
 button {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: none;
 	box-sizing: border-box;
 	list-style: none;
 	text-decoration: none;
 	color: inherit;
 	font-family: arial, sans-serif;
+	outline: none;
 }
 
 header {
@@ -107,6 +108,11 @@ form {
 	height: 3rem;
 	width: 90%;
 	margin: 1rem;
+}
+
+#inputDiv:hover {
+	border: 1px solid transparent;
+	box-shadow: 0 1px 5px rgba(124, 124, 124, 0.699);
 }
 
 #magIco {
