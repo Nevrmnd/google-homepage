@@ -22,16 +22,7 @@ button {
 	outline: none;
 }
 
-header {
-	/* border: 1px solid red; */
-}
-
-nav {
-	/* border: 1px solid green; */
-}
-
 nav ul {
-	/* border: 1px solid blue; */
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -40,7 +31,6 @@ nav ul {
 }
 
 nav ul li {
-	/* border: 1px dashed coral; */
 	display: inline;
 	margin: 0 0.6rem;
 	font-size: 0.8rem;
@@ -50,10 +40,6 @@ footer a:hover,
 nav ul li:nth-child(-n + 2):hover {
 	text-decoration: underline;
 }
-
-/* a:visited {
-	color: inherit;
-} */
 
 nav img {
 	width: 1rem;
@@ -77,21 +63,9 @@ main {
 	height: 40%;
 	left: 25%;
 	top: 25%;
-	/* border: 1px solid pink; */
-}
-
-#logoDiv {
-	/* border: 1px solid green; */
-	/* width: 100%;
-	height: 40%; */
-}
-
-#logoDiv img {
-	/* border: 1px solid blue; */
 }
 
 form {
-	/* border: 1px solid green; */
 	height: 50%;
 	width: 100%;
 	display: flex;
@@ -121,27 +95,19 @@ input[type="search"] {
 }
 
 #magIco {
-	/* border: 1px solid red; */
 	height: auto;
 	width: 5%;
 	margin: 2%;
 }
 
 input {
-	/* border: 1px solid yellow; */
 	height: 60%;
 	width: 80%;
 }
 
 #voiceIcoDiv {
-	/* border: 1px solid green; */
 	width: 4.3%;
 	margin: 0 1.4rem;
-}
-
-#voiceIco {
-	/* border: 1px solid red; */
-	max-width: 100%;
 }
 
 main button {
